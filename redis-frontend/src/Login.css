@@ -1,0 +1,100 @@
+/* Container styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+  
+}
+
+/* Form styling */
+.login-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(43, 53, 93, 0.1);
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+}
+
+/* Form title */
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+/* Label */
+.form-group label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Error message */
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Submit button */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background: #4591a2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #16788e;
+}
+
+/* Switch form section */
+.switch-form {
+  margin-top: 15px;
+}
+
+.switch-form p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Switch button */
+.switch-button {
+  background: none;
+  border: none;
+  color: #155639;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.switch-button:hover {
+  color: #088d51;
+  text-shadow: #80d2ad 0px 0px 5px;
+}
