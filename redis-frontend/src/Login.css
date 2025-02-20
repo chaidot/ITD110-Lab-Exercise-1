@@ -98,3 +98,10 @@
   color: #088d51;
   text-shadow: #80d2ad 0px 0px 5px;
 }
+
+{
+  background: linear-gradient(to right, rgba(4, 57, 39, 0.8), rgba(11, 102, 35, 0.8)), url('/public/bgschool.jpg');
+  background-size: cover;
+background-position: center;
+  color: white;
+}
