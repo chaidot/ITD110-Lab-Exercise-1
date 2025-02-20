@@ -200,10 +200,6 @@ function App() {
 
 
   //Login
-
-
-
-
   const userRoles = {
     admin: ["add_student", "edit_student", "delete_student", "view_students"],
     user: ["add_student", "edit_student", "delete_student", "view_students"],
@@ -669,7 +665,7 @@ function App() {
           ))}
         </tbody>
       </table>
-
+      
       {/* Charts Section */}
       <h2 style={{ color: "#40B5AD", fontSize: "24px", fontWeight: "bold", fontFamily: "Arial, sans-serif" }}>
         Data Visualization
